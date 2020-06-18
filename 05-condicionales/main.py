@@ -40,16 +40,17 @@ mayoria_edad = 18
 jubilacion = 65
 continente1 = "America"
 continente2 = "Europa"
-ontinente3 = "Asia"
+continente3 = "Asia"
+continente4 = "Africa"
+
+if edad >=18 and continente == continente1 and edad <= jubilacion:
+    print(f"{nombre} es americano,mayor de {edad} años de edad y no es jubilado.")
+elif edad <=18 and continente == continente1:
+        print(f"{nombre} es americano, menor de {edad} años de edad.")
 
 
-if edad >= mayoria_edad:
-    print(f"{nombre} es mayor de edad, tiene {edad}")
-    if continente == continente1 :
-        print("Usted es Americano")
-    else:
-        print(f"{nombre} no es Americano")
-else:
-    print(f"{nombre} no es mayor de edad , no tiene {mayoria_edad}")
+
+        
+
 
 
